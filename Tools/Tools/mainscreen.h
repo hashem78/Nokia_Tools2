@@ -29,6 +29,14 @@ public:
             case 1:
                 setcondition(true);
                 break;
+            case 2:
+                setcondition(true);
+                push_file();
+                break;
+            case 3:
+                setcondition(true);
+                pull_file();
+                break;
             default:
                 std::cout << "User exit\n";
             }

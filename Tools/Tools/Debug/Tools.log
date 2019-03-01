@@ -1,8 +1,8 @@
-﻿  adb_imp.cpp
-c:\users\mythis'_biome\desktop\nokia_tools\nokia_tools2\tools\tools\adb_imp.cpp(4): warning C4018: '<': signed/unsigned mismatch
-  Main.cpp
+﻿  Main.cpp
 c:\users\mythis'_biome\desktop\nokia_tools\nokia_tools2\tools\tools\mainscreen.h(12): warning C4018: '<': signed/unsigned mismatch
+  adb_imp.cpp
+c:\users\mythis'_biome\desktop\nokia_tools\nokia_tools2\tools\tools\adb_imp.cpp(4): warning C4018: '<': signed/unsigned mismatch
   useful_types_imp.cpp
-c:\users\mythis'_biome\desktop\nokia_tools\nokia_tools2\tools\tools\useful_types_imp.cpp(29): warning C4018: '<': signed/unsigned mismatch
+c:\users\mythis'_biome\desktop\nokia_tools\nokia_tools2\tools\tools\useful_types_imp.cpp(35): warning C4018: '<': signed/unsigned mismatch
   Generating Code...
   Tools.vcxproj -> C:\Users\Mythis'_Biome\Desktop\Nokia_tools\Nokia_tools2\Tools\Debug\Tools.exe
