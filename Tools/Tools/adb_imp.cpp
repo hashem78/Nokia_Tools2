@@ -43,7 +43,7 @@ void pull_file()
     system(command.c_str());
     std::cin.ignore();
 }
-void reboot_to_fastboot()
+void reboot_to_bootloader()
 {
-    system("cd dependecies & adb reboot bootloader");
+    system("cd dependencies & adb reboot bootloader");
 }

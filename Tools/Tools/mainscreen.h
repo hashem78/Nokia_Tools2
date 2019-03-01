@@ -5,7 +5,6 @@ private:
 public:
     void Draw()
     {
-        std::cout << &types::valid;
         if (types::condition == false) {
 
             system("CLS");
@@ -36,6 +35,10 @@ public:
             case 3:
                 setcondition(true);
                 pull_file();
+                break;
+            case 4:
+                setcondition(true);
+                reboot_to_bootloader();
                 break;
             default:
                 std::cout << "User exit\n";

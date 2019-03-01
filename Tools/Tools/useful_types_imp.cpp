@@ -2,13 +2,14 @@
 namespace types {
 bool condition = false;
 std::vector<std::string> filenames = { "dependencies/adb.exe", "dependencies/fastboot.exe" };
-std::vector<std::string> options = 
-{
-"Start Adb daemon", 
-"Get list of devices",
-"Push files to device",
-"Pull files from device"};
-std::vector<unsigned int> valid={0,1,2,3};
+std::vector<std::string> options = {
+    "Start Adb daemon",
+    "Get list of devices",
+    "Push files to device",
+    "Pull files from device",
+    "Reboot to bootloader"
+};
+std::vector<unsigned int> valid = { 0, 1, 2, 3, 4 };
 }
 
 void setcondition(const bool& x)
